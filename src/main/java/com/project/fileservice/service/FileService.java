@@ -16,4 +16,7 @@ public class FileService {
     public Iterable<File> findAll() {
         return fileRepository.findAll();
     }
+
+	public void delete(String fileId) {
+	}
 }
